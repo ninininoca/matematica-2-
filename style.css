@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 :root {
-    --cor-de-fundo: #fcfcfc;
-    --verde: #84bdff;
+    --cor-de-fundo: #0c7da0;
+    --verde: #82b7f3;
     --branco: #051129;
     --botao-ativo: #0574cf;
     --botao-inativo: rgba(230, 11, 3, 0.5);
@@ -11,5 +11,26 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.botao {
     font-family: 'Libre Baskerville', sans-serif;
 }
